@@ -59,7 +59,6 @@ function setPolicyNumber(){
     if (policyNumber < MIN_POLICY || policyNumber > MAX_POLICY) {
         console.log("\nI'm sorry, that is an invalid number. Please try again.");
         return setPolicyNumber();
-
     }
 }
 
